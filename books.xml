@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+	<book>
+		<BookTitle>Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design 2nd Edition</BookTitle>
+		<Authors>Gavin Towler, Ray Sinnott</Authors>
+		<Subject>Checmical Plant Design</Subject>
+		<OtherDisciplines>Project Management, Simulation</OtherDisciplines>
+		<NotableScientists>Fritz Haber</NotableScientists>
+	</book>
+	<book>
+		<BookTitle>Chemistry : A Molecular Approach</BookTitle>
+		<Authors>Nivaldo J. Tro</Authors>
+		<Subject>Chemistry</Subject>
+		<OtherDisciplines>Scientific Method</OtherDisciplines>
+		<NotableScientists>Linus Pauling</NotableScientists>
+	</book>
+	<book>
+		<BookTitle>Physical Chemistry</BookTitle>
+		<Authors>Robert J. Silbey, Robert A. Alberty, Moungi G. Bawendi</Authors>
+		<Subject>Quantum Chemistry</Subject>
+		<OtherDisciplines>Statistics and mathematical proofs</OtherDisciplines>
+		<NotableScientists>Niels Bohr, Max Planck, Erwin Schrödinger</NotableScientists>
+	</book>
+</books>
