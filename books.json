@@ -1,25 +1,25 @@
 {
 	"books": [
 		{
-			"Book Title": "Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design 2nd Edition"
-			"Authors": "Gavin Towler, Ray Sinnott"
-			"Subject": "Checmical Plant Design"
-			"Other Disciplines": "Project Management, Simulation"
+			"Book Title": "Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design 2nd Edition",
+			"Authors": "Gavin Towler, Ray Sinnott",
+			"Subject": "Checmical Plant Design",
+			"Other Disciplines": "Project Management, Simulation",
 			"Notable Scientists": "Fritz Haber"
 		},
 		{
-			"Book Title": "Chemistry : A Molecular Approach"
-			"Authors": "Nivaldo J. Tro"
-			"Subject": "Chemistry"
-			"Other Disciplines": "Scientific Method"
+			"Book Title": "Chemistry : A Molecular Approach",
+			"Authors": "Nivaldo J. Tro",
+			"Subject": "Chemistry",
+			"Other Disciplines": "Scientific Method",
 			"NotableScientists": "Linus Pauling"
 		},
 		{
-			"Book Title": "Physical Chemistry"
-			"Authors": "Robert J. Silbey, Robert A. Alberty, Moungi G. Bawendi"
-			"Subject": "Quantum Chemistry"
-			"Other Disciplines": "Statistics and mathematical proofs"
-			"NotableScientists": "Niels Bohr, Max Planck, Erwin Schrödinger"
+			"Book Title": "Physical Chemistry",
+			"Authors": "Robert J. Silbey, Robert A. Alberty, Moungi G. Bawendi",
+			"Subject": "Quantum Chemistry",
+			"Other Disciplines": "Statistics and mathematical proofs",
+			"NotableScientists": "Niels Bohr, Max Planck, Erwin SchrÃ¶dinger"
 		}
 	]
 }
