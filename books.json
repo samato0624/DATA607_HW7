@@ -12,14 +12,14 @@
 			"Authors": "Nivaldo J. Tro",
 			"Subject": "Chemistry",
 			"Other Disciplines": "Scientific Method",
-			"NotableScientists": "Linus Pauling"
+			"Notable Scientists": "Linus Pauling"
 		},
 		{
 			"Book Title": "Physical Chemistry",
 			"Authors": "Robert J. Silbey, Robert A. Alberty, Moungi G. Bawendi",
 			"Subject": "Quantum Chemistry",
 			"Other Disciplines": "Statistics and mathematical proofs",
-			"NotableScientists": "Niels Bohr, Max Planck, Erwin Schrödinger"
+			"Notable Scientists": "Niels Bohr, Max Planck, Erwin Schrödinger"
 		}
 	]
 }
