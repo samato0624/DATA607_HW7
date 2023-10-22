@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<books>
-	<book>
+<book>
 		<BookTitle>Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design 2nd Edition</BookTitle>
 		<Authors>Gavin Towler, Ray Sinnott</Authors>
 		<Subject>Chemical Plant Design</Subject>
@@ -20,5 +19,4 @@
 		<Subject>Quantum Chemistry</Subject>
 		<OtherDisciplines>Statistics and mathematical proofs</OtherDisciplines>
 		<NotableScientists>Niels Bohr, Max Planck, Erwin Schrödinger</NotableScientists>
-	</book>
-</books>
+</book>
