@@ -1,0 +1,68 @@
+---
+title: "DATA607_HW7"
+author: "Sean Amato"
+date: "2023-10-21"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+library(rvest)
+library(XML)
+library(DBI)
+library(RMySQL)
+library(jsonlite)
+library(DT)
+```
+
+## R Markdown
+
+This is an R Markdown document contains Sean Amato's work for week 7.
+
+
+**Conclusions:** Through visual inspections of the tables I can see that the data was preserved, while the column formatting was slightly different. Through this exercise I did learn how HTML, XML, and JSON differ syntactically and hierarchically. HTML represent every row in the table with header tags including the header of the table itself. XML seems to require a more holistic view of the data's hierarchy while JSON similar to XML only care that data has the table header listed in the line item.
+
+```{r cars}
+books_html <- read_html("https://raw.githubusercontent.com/samato0624/DATA607_HW7/main/books.html")
+data_book_html <- books_html %>%
+  html_table()
+df_books_html <- as.data.frame(data_book_html)
+datatable(
+  data = df_books_html,  
+  options = list(scrollX = TRUE, 
+                 autoWidth = FALSE, 
+                 pageLength = 5),
+  caption = "Books Table from HTML"
+)
+```
+
+```{r}
+download.file("https://raw.githubusercontent.com/samato0624/DATA607_HW7/main/books.xml", "books.xml")
+book_xml <- xmlParse("books.xml")
+df_books_xml <- xmlToDataFrame(book_xml)
+datatable(
+  data = df_books_xml,  
+  options = list(scrollX = TRUE, 
+                 autoWidth = FALSE, 
+                 pageLength = 5),
+  caption = "Books Table from XML"
+)
+```
+
+```{r}
+download.file("https://raw.githubusercontent.com/samato0624/DATA607_HW7/main/books.json", "books.json")
+book_json <- fromJSON("books.json")
+df_books_json <- as.data.frame(book_json)
+datatable(
+  data = df_books_json,  
+  options = list(scrollX = TRUE, 
+                 autoWidth = FALSE, 
+                 pageLength = 5),
+  caption = "Books Table from JSON"
+)
+```
+
+
+
+*****
